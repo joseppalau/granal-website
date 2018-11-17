@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items a:hover{
+  color:white
+}
+
+h5{
+  text-align: center;
+}
+
+p{
+  font-size:auto;
+  line-height: 20px;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.container-cols-home{
+  max-width:1000px;
+  margin: auto;
+}
+
+.container-above-icon{
+  min-height: 180px;
+
+}
