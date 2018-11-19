@@ -3,73 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>Granal Sport</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="../static/styles/styles.css">
   </head>
   <body>
-    <div class="w3-top">
-      <div class="w3-bar w3-orange w3-mobile nav-items">
-        <a href="#" class="w3-bar-item w3-button">Inicio</a>
-        <a href="#" class="w3-bar-item w3-button">Césped Natural</a>
-        <a href="#" class="w3-bar-item w3-button">Césped Artificial</a>
-        <a href="#" class="w3-bar-item w3-button">Pavimentos</a>
-        <a href="#" class="w3-bar-item w3-button">Equipamiento</a>
-        <a href="#" class="w3-bar-item w3-button">Contacto</a>
+
+    <div class="header-logo">
+      <img src="../static/images/logoCirculo_granal.jpg" alt="" width="100px">
+      <p style="padding-left:20px; font-size:25px; color:grey">Mejorando las instalaciones deportivas en Andalucía</p>
     </div>
 
-    <div>
+    <div class= "nav-bar">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Césped Natural</a></li>
+        <li><a href="#">Césped Artificial</a></li>
+        <li><a href="#">Pavimentos</a></li>
+        <li><a href="#">Equipamiento</a></li>
+        <li style="align:right;"><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="" style="width:100%">
       <img src="../static/images/valle-san-lorenzo.jpg" alt="" width="100%">
     </div>
 
-    <div class="container-cols-home">
-      <div class="w3-row" style="padding:5px">
-        <div class="w3-col w3-container" style="width:25%">
-          <div class="w3-border-bottom w3-border-green">
-            <h5>Césped Artificial</h5>
-          </div>
-          <div class="container-above-icon">
-          <p>Granal ofrece unos campos de césped artificial que cumplen los ensayos más exigentes de la industria. Un campo para todos</p>
-          </div>
-          <br>
-          <img src="../static/images/cesped-artificial.png" alt="" width="100%">
-        </div>
-        <div class="w3-col w3-container" style="width:25%">
-          <div class="w3-border-bottom w3-border-green">
-            <h5>Césped Natural</h5>
-          </div>
-          <div class="container-above-icon">
-            <p>Un campo de césped natural permite desarrolar un juego en estado puro. Es la superficie de juego deseada por todos los deportistas</p>
-          </div>
-          <br>
-          <img src="../static/images/cesped-natural.png" alt="" width="100%">
-        </div>
-        <div class="w3-col w3-container" style="width:25%">
-          <div class="w3-border-bottom w3-border-orange">
-            <h5>Pavimentos</h5>
-          </div>
-          <div class="container-above-icon">
-            <p>Los pavimentos de Granal Sport están diseñador para durar. La inversión en nuestros productos siempre es altamente satisfactoria</p>
-          </div>
-          <br>
-          <img src="../static/images/pista-baloncesto.png" alt="" width="100%">
-        </div>
-        <div class="w3-col w3-container" style="width:25%">
-          <div class="w3-border-bottom w3-border-orange">
-            <h5>Equipamiento</h5>
-          </div>
-          <div class="container-above-icon">
-            <p>El mejor equipamiento con las mejores garantías. Los materiales y el modo de fabricación de toda nuestra gama es lo que nos da fiabilidad</p>
-          </div>
-          <br>
-          <img src="../static/images/aro-baloncesto.png" alt="" width="100%">
-        </div>
-      </div>
+    <table class="table-home">
+      <tr>
+        <th style="border-bottom: 2px solid green;"><h3>Césped Artificial</h3></th>
+        <th style="border-bottom: 2px solid green;"><h3>Césped Natural</h3></th>
+        <th style="border-bottom: 2px solid orange;"><h3>Pavimentos</h3></th>
+        <th style="border-bottom: 2px solid orange;"><h3>Equipamiento</h3></th>
+      </tr>
+      <tr>
+        <td valign="top"><p>Granal ofrece unos campos de césped artificial que cumplen los ensayos más exigentes de la industria. Un campo para todos</p></td>
+        <td valign="top"><p>Un campo de césped natural permite desarrolar un juego en estado puro. Es la superficie de juego deseada por todos los deportistas</p></td>
+        <td valign="top"><p>Los pavimentos de Granal Sport están diseñador para durar. La inversión en nuestros productos siempre es altamente satisfactoria</p></td>
+        <td valign="top"><p>El mejor equipamiento con las mejores garantías. Los materiales y el modo de fabricación de toda nuestra gama es lo que nos da fiabilidad</p></td>
+      </tr>
+      <tr>
+        <td align="center" ><img src="../static/images/cesped-artificial.png" alt=""></td>
+        <td align="center" ><img src="../static/images/cesped-natural.png" alt=""></td>
+        <td align="center" ><img src="../static/images/pista-baloncesto.png" alt=""></td>
+        <td align="center" ><img src="../static/images/aro-baloncesto.png" alt=""></td>
+      </tr>
+      <tr>
+        <td align="center"><a href="#"><img src="../static/images/boton-de-reproduccion.png" alt=""> </a> </td>
+        <td align="center"><a href="#"><img src="../static/images/boton-de-reproduccion.png" alt=""> </a></td>
+        <td align="center"><a href="#"><img src="../static/images/boton-de-reproduccion.png" alt=""> </a></td>
+        <td align="center"><a href="#"><img src="../static/images/boton-de-reproduccion.png" alt=""> </a></td>
+      </tr>
+    </table>
+
+    <div class="footer">
+      <p>Granl Sport</p>
+      <p>Avenida Fernando de los Rios</p>
+      <p>Granada (Granada - Andalucía)</p>
+      <p>email: info@granal.es / Telf: xxxxxxxx</p>
     </div>
 
-    <script>
-    function scrollWin(x, y) {
-        window.scrollBy(x, y);
-    }
-    </script>
   </body>
 </html>
