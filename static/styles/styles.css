@@ -65,10 +65,14 @@ p{
   margin: 0 auto;
 }
 
-.table-productos{
+.table-productos, .container-contacto{
   width:75%;
   margin: 0 auto;
   margin-top: 5px;
+}
+
+.container-contacto td{
+  padding-bottom:10px;
 }
 
 .titulo-producto{
@@ -111,6 +115,8 @@ width:25%;
   align-items: center;
   justify-content: center;
 }
+
+.
 
 .footer ul{
   list-style: none;
